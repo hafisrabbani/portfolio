@@ -1,0 +1,192 @@
+body{
+	background-color: #fbfbfb;
+}
+
+.regulers{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 400 !important;
+}
+
+.mediums{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 500 !important;
+}
+
+.semi-bolds{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 600 !important;
+}
+
+.bolds{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 700 !important;
+}
+
+nav .navbar-nav a{
+	font-size: 16px;
+	color: #E5E5E5;
+}
+
+.bgku1{
+	background-color: #424242;
+	color: white;
+}
+
+.jumbotron img{
+	height: 686px;
+	width: 576px;
+}
+
+.jumbotron h1{
+	font-size:50px;
+	color: #424242;
+	line-height: 150%;
+}
+
+.jumbotron p{
+	font-size: 16px;
+	color: #8B8B8B;
+	width: 431px;
+	line-height: 150%;
+}
+
+.jumbotron a{
+	font-size: 16px;
+	color: #424242;
+	text-decoration: underline;
+	width: 112px; 
+}
+
+#sec-2 img{
+	width: 460px;
+	height: 463px
+}
+
+#sec-2 h3{
+	font-size: 24px;
+	color: #8B8B8B;
+}
+
+#sec-2 h2{
+	font-size: 48px;
+	color: #424242;
+	line-height: 150%;
+}
+
+#sec-2 p{
+	font-size: 16px;
+	color: #8B8B8B;
+	line-height: 150%;
+}
+
+#sec-2 a{
+	font-size: 16px;
+	color: #424242;
+	text-decoration: underline;
+	width: 112px; 
+}
+
+#sec-3 h1{
+	font-size: 48px;
+	color: #424242;
+	line-height: 150%;
+}
+
+#sec-3 p{
+	font-size: 16px;
+	color: #8B8B8B;
+	line-height: 150%;
+}
+
+#sec-3 .cardku img{
+	width: 550px;
+	height: 451px;
+}
+
+#sec-3 .cardku img:hover{
+	transform: scale(0.5, 0.5);
+	transition: all 0.4s ease-in-out;
+	position: relative;
+	transform: translateY(-20px);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.20);
+	cursor: pointer;
+}
+
+
+#sec-3 a{
+	font-size: 16px;
+	color: #424242;
+	text-decoration: underline;
+	width: 112px;
+}
+
+
+#sec-4 h1{
+	font-size: 48px;
+	color: #424242;
+	line-height: 150%;
+}
+
+#sec-4 p{
+	font-size: 16px;
+	color: #8B8B8B;
+	line-height: 150%;
+}
+
+#sec-3 h5{
+	font-size: 24px;
+	color: #424242;
+	line-height: 150%;
+}
+
+.text-muted{
+	font-size: 18px;
+	color: #8B8B8B;
+	line-height: 150%;
+}
+
+.testi{
+	font-size: 16px;
+	color: #424242;
+	line-height: 150%;
+}
+
+.card:hover{
+	transform: scale(0.5, 0.5);
+	transition: all 0.4s ease-in-out;
+	position: relative;
+	transform: translateY(-20px);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.20);
+	cursor: pointer;
+}
+
+
+footer h3{
+	font-size: 24px;
+	color: #424242;
+}
+
+footer p{
+	font-size: 14px;
+	color: #8B8B8B;
+	line-height: 150%;
+}
+
+
+
+@media (max-width: 670px){
+	*{
+		overflow-x: hidden;
+	}
+
+	img{
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	#sec-3 .cardku img{
+	width: 450px;
+	height: 351px;
+	margin-top: 55px;
+	}
+}
+
